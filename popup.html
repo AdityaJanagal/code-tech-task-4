@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Productivity Analytics</title>
+    <style>
+        body { font-family: Arial, sans-serif; width: 300px; padding: 10px; }
+        h3 { color: #007bff; border-bottom: 1px solid #ccc; padding-bottom: 5px; }
+        #analytics-list { list-style: none; padding: 0; }
+        #analytics-list li { display: flex; justify-content: space-between; margin-bottom: 5px; padding: 5px; border-bottom: 1px dotted #eee; }
+        .domain { font-weight: bold; }
+        .time { color: #4CAF50; }
+        #reset-button { margin-top: 10px; background-color: #f44336; color: white; border: none; padding: 8px; border-radius: 4px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h3>⏱ Time Tracking & Analytics</h3>
+    <ul id="analytics-list">
+        <li>Loading data...</li>
+    </ul>
+    <button id="reset-button">Reset Data</button>
+    <script src="popup.js"></script>
+</body>
+</html>
